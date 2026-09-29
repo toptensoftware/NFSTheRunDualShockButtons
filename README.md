@@ -39,14 +39,13 @@ QTE Buttons
 
 ## What's What?
 
-* `dualshock` - the replacement .dds textures to be used with [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit)
 * `artwork.svg` - contains the redrawn assets.  Layer's need to be shown/hidden to configure each button
+* `dualshock` - the replacement .dds textures to be used with [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit)
+* `dualshock/8218FC67.dds` - sprite sheet manually patched with the new assets.
 * `dump` - the XBox assets as dumped from the game
 * `reference` - various screen grabs from video walkthroughs of the game on PS3
 * `exported` - assets in PNG format as exported from Inkscape
 * `convert.sh` - script to convert the .png files to .dds and rename with correct hash
-
-
 
 ## License
 
