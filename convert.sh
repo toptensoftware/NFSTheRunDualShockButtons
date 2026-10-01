@@ -20,4 +20,9 @@ magick exported/menu-cross.png dualshock/F5B15FB2.dds
 magick exported/menu-triangle.png dualshock/BA7523D0.dds
 magick exported/menu-start.png dualshock/C6E3889F.dds
 
+# Menu Arrows
+magick exported/menu-arrow-1.png dualshock/FE606D28.dds
+magick exported/menu-arrow-2.png dualshock/D51A766D.dds
+magick exported/menu-arrow-3.png dualshock/81CE829D.dds
+
 # Note: other menu buttons are located in 8218FC67.dds and need to be manually placed
