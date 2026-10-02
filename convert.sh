@@ -26,3 +26,6 @@ magick exported/menu-arrow-2.png dualshock/D51A766D.dds
 magick exported/menu-arrow-3.png dualshock/81CE829D.dds
 
 # Note: other menu buttons are located in 8218FC67.dds and need to be manually placed
+
+# No compression on these menu assets
+magick 4D424977.png -define dds:compression=none 4D424977.dds
