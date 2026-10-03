@@ -20,12 +20,12 @@ magick exported/menu-cross.png dualshock/F5B15FB2.dds
 magick exported/menu-triangle.png dualshock/BA7523D0.dds
 magick exported/menu-start.png dualshock/C6E3889F.dds
 
-# Menu Arrows
-magick exported/menu-arrow-1.png dualshock/FE606D28.dds
-magick exported/menu-arrow-2.png dualshock/D51A766D.dds
-magick exported/menu-arrow-3.png dualshock/81CE829D.dds
+# Note: other controller buttons are located in 8218FC67.dds and need to be manually placed
 
-# Note: other menu buttons are located in 8218FC67.dds and need to be manually placed
+# Menu Arrows
+magick exported/menu-arrow-1.png menu/FE606D28.dds
+magick exported/menu-arrow-2.png menu/D51A766D.dds
+magick exported/menu-arrow-3.png menu/81CE829D.dds
 
 # No compression on these menu assets
-magick 4D424977.png -define dds:compression=none 4D424977.dds
+magick menu/4D424977.png -define dds:compression=none menu/4D424977.dds
