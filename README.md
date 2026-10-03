@@ -39,7 +39,9 @@ QTE Buttons
 
 ## What's What?
 
-* `artwork.svg` - contains the redrawn assets.  Layer's need to be shown/hidden to configure each button
+* `buttons.svg` - contains the redrawn assets.  Layer's need to be shown/hidden to configure each button
+* `menu-arrows.svg` - the orange chevron arrow used in menus
+* `menu-bar.svg` - the menu bar highlight
 * `dualshock` - the replacement .dds textures to be used with [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit)
 * `dualshock/8218FC67.dds` - sprite sheet manually patched with the new assets.
 * `dump` - the XBox assets as dumped from the game
