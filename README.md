@@ -36,6 +36,18 @@ QTE Buttons
 ![Triangle Cracked](exported/qte-triangle-cracked.png)
 ![Circle Cracked](exported/qte-circle-cracked.png)
 
+![L2 Up](exported/qte-l2-up.png)
+![L2 Down](exported/qte-l2-down.png)
+![L2 Cracked](exported/qte-l2-cracked.png)
+
+![R2 Up](exported/qte-r2-up.png)
+![R2 Down](exported/qte-r2-down.png)
+![R2 Cracked](exported/qte-r2-cracked.png)
+
+
+![L2R2 Up](exported/qte-l2r2-up.png)
+![L2R2 Down](exported/qte-l2r2-down.png)
+![L2R2 Cracked](exported/qte-l2r2-cracked.png)
 
 ## What's What?
 
