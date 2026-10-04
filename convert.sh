@@ -25,6 +25,10 @@ magick exported/qte-r2-down.png inject/dualshock/CD099E2A3525AADB.dds
 magick exported/qte-r2-up.png inject/dualshock/6D7662B3DCF678B0.dds
 magick exported/qte-r2-cracked.png inject/dualshock/5A6EB3CA78039F9C.dds
 
+# QTE Glows
+magick exported/shoulder-button-glow.png inject/dualshock/F2FDB578D1742339.dds
+magick exported/shoulder-buttons-glow.png inject/dualshock/9680805BB6D0827E.dds
+
 
 # Menu buttons
 magick exported/menu-circle.png inject/dualshock/F0821E62773F858B.dds
