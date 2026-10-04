@@ -1,31 +1,43 @@
 #!/bin/bash
 
 # QTE Buttons
-magick exported/qte-circle-cracked.png dualshock/C7FD7CF6.dds
-magick exported/qte-circle-down.png dualshock/15B03C5F.dds
-magick exported/qte-circle-up.png dualshock/7301A671.dds
-magick exported/qte-cross-cracked.png dualshock/469A4616.dds
-magick exported/qte-cross-down.png dualshock/EF7633F2.dds
-magick exported/qte-cross-up.png dualshock/450234F8.dds
-magick exported/qte-square-cracked.png dualshock/527B8024.dds
-magick exported/qte-square-down.png dualshock/435486ED.dds
-magick exported/qte-square-up.png dualshock/8C3FD691.dds
-magick exported/qte-triangle-cracked.png dualshock/B1BBAD65.dds
-magick exported/qte-triangle-down.png dualshock/0193AB11.dds
-magick exported/qte-triangle-up.png dualshock/15391220.dds
+magick exported/qte-circle-cracked.png inject/dualshock/27F1824D1AFCB6C4.dds
+magick exported/qte-circle-down.png inject/dualshock/5598383E23C67393.dds
+magick exported/qte-circle-up.png inject/dualshock/6D2E0BED9C9EE316.dds
+magick exported/qte-cross-cracked.png inject/dualshock/83B1500CF5BA0961.dds
+magick exported/qte-cross-down.png inject/dualshock/D5FC5C89D122B87F.dds
+magick exported/qte-cross-up.png inject/dualshock/B3DFA5F68C8BC282.dds
+magick exported/qte-square-cracked.png inject/dualshock/83B1500CF5BA0961.dds
+magick exported/qte-square-down.png inject/dualshock/8564D1B55428AAD0.dds
+magick exported/qte-square-up.png inject/dualshock/FA223997906956A4.dds
+magick exported/qte-triangle-cracked.png inject/dualshock/707374DF826595C7.dds
+magick exported/qte-triangle-down.png inject/dualshock/0AB64365F33FB919.dds
+magick exported/qte-triangle-up.png inject/dualshock/4533FD8B0436304B.dds
+
+# QTE L2/R2 Buttons
+magick exported/qte-l2r2-down.png inject/dualshock/DD53A16BABCC5E6C.dds
+magick exported/qte-l2r2-up.png inject/dualshock/D2E2246027DB920F.dds
+magick exported/qte-l2r2-cracked.png inject/dualshock/60244607B2236D26.dds
+magick exported/qte-l2-down.png inject/dualshock/F2A2A229932BBD7C.dds
+magick exported/qte-l2-up.png inject/dualshock/AB647EC537447B4E.dds
+magick exported/qte-l2-cracked.png inject/dualshock/62B61365F9C9A77D.dds
+magick exported/qte-r2-down.png inject/dualshock/CD099E2A3525AADB.dds
+magick exported/qte-r2-up.png inject/dualshock/6D7662B3DCF678B0.dds
+magick exported/qte-r2-cracked.png inject/dualshock/5A6EB3CA78039F9C.dds
+
 
 # Menu buttons
-magick exported/menu-circle.png dualshock/502312E0.dds
-magick exported/menu-cross.png dualshock/F5B15FB2.dds
-magick exported/menu-triangle.png dualshock/BA7523D0.dds
-magick exported/menu-start.png dualshock/C6E3889F.dds
+magick exported/menu-circle.png inject/dualshock/F0821E62773F858B.dds
+magick exported/menu-cross.png inject/dualshock/C8667679416EE768.dds
+magick exported/menu-triangle.png inject/dualshock/6282ED8CEDB2B259.dds
+magick exported/menu-start.png inject/dualshock/02F53D4F7BF30EB6.dds
 
-# Note: other controller buttons are located in 8218FC67.dds and need to be manually placed
+# Note: other controller buttons are located in E3714DDCA128992A.dds and need to be manually placed
 
 # Menu Arrows
-magick exported/menu-arrow-1.png menu/FE606D28.dds
-magick exported/menu-arrow-2.png menu/D51A766D.dds
-magick exported/menu-arrow-3.png menu/81CE829D.dds
+magick exported/menu-arrow-1.png inject/menu/73E5B47B6A461E06.dds
+magick exported/menu-arrow-2.png inject/menu/E34A3787B5977B02.dds
+magick exported/menu-arrow-3.png inject/menu/000731415AA87031.dds
 
 # No compression on these menu assets
-magick menu/4D424977.png -define dds:compression=none menu/4D424977.dds
+magick inject/menu/6F6F438E4B246110.png -define dds:compression=none inject/menu/6F6F438E4B246110.dds
