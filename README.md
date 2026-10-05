@@ -44,22 +44,24 @@ QTE Buttons
 ![R2 Down](exported/qte-r2-down.png)
 ![R2 Cracked](exported/qte-r2-cracked.png)
 
-
 ![L2R2 Up](exported/qte-l2r2-up.png)
 ![L2R2 Down](exported/qte-l2r2-down.png)
 ![L2R2 Cracked](exported/qte-l2r2-cracked.png)
 
 ## What's What?
 
+* `dump/` - various assets as dumped from the game
+* `exported/` - assets in PNG format as exported from Inkscape
+* `inject/dualshock/` - PS DualShock controller assets
+* `inject/characters/` - upscale character assets for loading screens
+* `inject/menu/` - criper menu assets
+* `manual-edit/` - manually edit sprite sheets
+* `reference/` - various screen grabs from video walkthroughs of the game on PS3
 * `buttons.svg` - contains the redrawn assets.  Layer's need to be shown/hidden to configure each button
+* `convert.sh` - script to convert the .png files to .dds and rename with correct hash
 * `menu-arrows.svg` - the orange chevron arrow used in menus
 * `menu-bar.svg` - the menu bar highlight
-* `dualshock` - the replacement .dds textures to be used with [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit)
-* `dualshock/8218FC67.dds` - sprite sheet manually patched with the new assets.
-* `dump` - the XBox assets as dumped from the game
-* `reference` - various screen grabs from video walkthroughs of the game on PS3
-* `exported` - assets in PNG format as exported from Inkscape
-* `convert.sh` - script to convert the .png files to .dds and rename with correct hash
+* `shoulder-button*.svg` - the L2/R2 buttons
 
 ## License
 

@@ -35,13 +35,11 @@ magick exported/menu-circle.png inject/dualshock/F0821E62773F858B.dds
 magick exported/menu-cross.png inject/dualshock/C8667679416EE768.dds
 magick exported/menu-triangle.png inject/dualshock/6282ED8CEDB2B259.dds
 magick exported/menu-start.png inject/dualshock/02F53D4F7BF30EB6.dds
-
-# Note: other controller buttons are located in E3714DDCA128992A.dds and need to be manually placed
+magick manual-edit/E3714DDCA128992A.png -define dds:compression=none inject/dualshock/E3714DDCA128992A.dds
 
 # Menu Arrows
 magick exported/menu-arrow-1.png inject/menu/73E5B47B6A461E06.dds
 magick exported/menu-arrow-2.png inject/menu/E34A3787B5977B02.dds
 magick exported/menu-arrow-3.png inject/menu/000731415AA87031.dds
+magick manual-edit/6F6F438E4B246110.png -define dds:compression=none inject/menu/6F6F438E4B246110.dds
 
-# No compression on these menu assets
-magick inject/menu/6F6F438E4B246110.png -define dds:compression=none inject/menu/6F6F438E4B246110.dds
