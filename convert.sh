@@ -44,4 +44,4 @@ magick exported/menu-arrow-3.png inject/menu/000731415AA87031.dds
 magick manual-edit/6F6F438E4B246110.png -define dds:compression=none inject/menu/6F6F438E4B246110.dds
 
 # Map
-magick manual-edit/90CE3DF27F7DCC27.png -define dds:compression=none inject/menu/90CE3DF27F7DCC27.dds
+magick exported/mapsheet.png -define dds:compression=none inject/menu/90CE3DF27F7DCC27.dds
