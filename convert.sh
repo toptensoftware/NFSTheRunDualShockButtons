@@ -45,3 +45,6 @@ magick manual-edit/6F6F438E4B246110.png -define dds:compression=none inject/menu
 
 # Map
 magick exported/mapsheet.png -define dds:compression=none inject/menu/90CE3DF27F7DCC27.dds
+
+# Hud map
+magick exported/hudmap.png -define dds:compression=none inject/menu/D6406BE07F12231E.dds
