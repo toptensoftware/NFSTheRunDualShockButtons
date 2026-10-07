@@ -48,6 +48,7 @@ magick exported/mapsheet.png -define dds:compression=none inject/menu/90CE3DF27F
 
 # Stage Maps
 magick exported/stagemap1.png -define dds:compression=none inject/menu/62E1F08F61948008.dds
+magick exported/stagemap2.png -define dds:compression=none inject/menu/E04CBBBE576B0C53.dds
 
 # Hud map
 magick exported/hudmap.png -define dds:compression=none inject/menu/D6406BE07F12231E.dds
