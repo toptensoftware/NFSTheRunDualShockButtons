@@ -46,7 +46,7 @@ magick manual-edit/6F6F438E4B246110.png -define dds:compression=none inject/menu
 # Loading Map
 magick exported/mapsheet.png -define dds:compression=none inject/menu/90CE3DF27F7DCC27.dds
 
-# Stage Maps
+# Stage Maps (wip)
 magick exported/stagemap1.png -define dds:compression=none inject/menu/62E1F08F61948008.dds
 magick exported/stagemap2.png -define dds:compression=none inject/menu/E04CBBBE576B0C53.dds
 
