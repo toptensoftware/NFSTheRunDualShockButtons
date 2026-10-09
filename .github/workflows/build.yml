@@ -1,0 +1,43 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install make and Inkscape
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends make inkscape
+
+      # Ubuntu's apt package is ImageMagick 6, which has no `magick` command,
+      # so install the official ImageMagick 7 AppImage instead.
+      - name: Install ImageMagick 7
+        run: |
+          curl -fsSL -o magick https://imagemagick.org/archive/binaries/magick
+          chmod +x magick
+          sudo mv magick /usr/local/bin/magick
+          echo "APPIMAGE_EXTRACT_AND_RUN=1" >> "$GITHUB_ENV"
+
+      - name: Tool versions
+        run: |
+          make --version | head -1
+          node --version
+          inkscape --version
+          magick -version | head -1
+
+      - name: Build
+        run: make
