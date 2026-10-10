@@ -1,6 +1,6 @@
 # NFS The Run Texture Pack
 
-This is a set of remastered and upscaled textures assets for NFS The Run.
+A set of remastered and upscaled textures assets for NFS The Run.
 
 
 ## Download and Install
@@ -28,7 +28,7 @@ This is a set of remastered and upscaled textures assets for NFS The Run.
 ![New](preview/loading-map-b.png)
 
 
-### Stage Maps
+### Start Next Stage Maps
 
 ![Old](preview/stage-maps-a.png)
 ![New](preview/stage-maps-b.png)
@@ -43,13 +43,17 @@ This is a set of remastered and upscaled textures assets for NFS The Run.
 ![New](preview/characters2-b.png)
 
 
-### HUD Map Arrows
+### HUD Map Indicators
 
 ![Old](preview/hudmap-a.png)
 ![New](preview/hudmap-b.png)
 
 
-### DualShock Controller Assets
+### DualShock Controller
+
+(these replace the X-Box controllet assets.  Disable
+by either removing the folder or use Texture Toolkit
+overlay panel in thr Mods section to disable)
 
 ![Cross Up](preview/qte-cross-up.png)
 ![Square Up](preview/qte-square-up.png)
