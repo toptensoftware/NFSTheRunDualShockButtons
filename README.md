@@ -51,7 +51,7 @@ A set of remastered and upscaled textures assets for NFS The Run.
 
 ### DualShock Controller
 
-(these replace the X-Box controllet assets.  Disable
+(These replace the X-Box controller assets.  Disable
 by either removing the folder or use Texture Toolkit
 overlay panel in thr Mods section to disable)
 
