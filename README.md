@@ -1,4 +1,4 @@
-# NFS The Run - Remastered Assets
+# NFS The Run Texture Pack
 
 This is a set of remastered and upscaled textures assets for NFS The Run.
 
@@ -7,9 +7,9 @@ This is a set of remastered and upscaled textures assets for NFS The Run.
 
 1. Make sure [NFS The Run Definitive Edition](https://nfsmods.xyz/mod/5373) is installed and working.
 
-2. Install the latest version [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit) and disable the old version.
+2. Install the latest version of [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit) and disable the old version (requires 1.2 or later)
 
-3. Download zip package from the [Releases Page](https://github.com/toptensoftware/NFSTheRunTexturePack/releases).
+3. Download the zip package from the [Releases Page](https://github.com/toptensoftware/NFSTheRunTexturePack/releases).
 
 4. Extract zip into the NFS The Run Definitive Edition game folder ensuring the `TT` folders overlap.
 
