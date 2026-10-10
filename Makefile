@@ -1,6 +1,6 @@
 NFSDIR := "../../Games/Need for Speed The Run"
 NFSEXE := "Need For Speed The Run.exe"
-PACKAGE := NFSTR-HighResTexturePack.zip
+PACKAGE := NFSTRTheRunTexturePack.zip
 
 SUBDIRS := $(patsubst %/Makefile,%,$(wildcard src/*/Makefile))
 
