@@ -1,26 +1,40 @@
 # NFS The Run - Remastered Assets
 
-This is a set of remastered assets for NFS The Run to be used with 
-[Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit) and/or 
-[NFS The Run Definitive Edition](https://nfsmods.xyz/mod/5373).
+This is a set of remastered and upscaled textures assets for NFS The Run.
 
-## Menu Arrows and Indicators
+
+## Download and Install
+
+1. Make sure [NFS The Run Definitive Edition](https://nfsmods.xyz/mod/5373) is installed and working.
+
+2. Install the latest version [Texture-Toolkit](https://github.com/BadassBaboon/Texture-Toolkit) and disable the old version.
+
+3. Download zip package from the [Releases Page](https://github.com/toptensoftware/NFSTheRunTexturePack/releases).
+
+4. Extract zip into the NFS The Run Definitive Edition game folder ensuring the `TT` folders overlap.
+
+
+## Inclusions
+
+### Menu Arrows and Indicators
 
 ![Old](preview/menu-a.png)
 ![New](preview/menu-b.png)
 
-# Loading Maps
+
+### Loading Maps
 
 ![Old](preview/loading-map-a.png)
 ![New](preview/loading-map-b.png)
 
-# Stage Maps
 
+### Stage Maps
 
 ![Old](preview/stage-maps-a.png)
 ![New](preview/stage-maps-b.png)
 
-# Upscaled Characters
+
+### Upscaled Characters
 
 ![Old](preview/characters-a.png)
 ![New](preview/characters-b.png)
@@ -28,13 +42,14 @@ This is a set of remastered assets for NFS The Run to be used with
 ![Old](preview/characters2-a.png)
 ![New](preview/characters2-b.png)
 
-## HUD Map Arrows
+
+### HUD Map Arrows
 
 ![Old](preview/hudmap-a.png)
 ![New](preview/hudmap-b.png)
 
 
-## DualShock Controller Assets
+### DualShock Controller Assets
 
 ![Cross Up](preview/qte-cross-up.png)
 ![Square Up](preview/qte-square-up.png)
